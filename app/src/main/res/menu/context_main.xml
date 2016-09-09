@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sharang.pointofsale.MainActivity">
+
+    <item
+        android:id="@+id/menu_context_edit"
+        android:icon="@android:drawable/ic_menu_edit"
+        compat:showAsAction="ifRoom"
+        android:title="@string/edit" />
+
+    <item
+        android:id="@+id/menu_context_remove"
+        android:icon="@android:drawable/ic_menu_delete"
+        compat:showAsAction="ifRoom"
+        android:title="@string/remove" />
+
+</menu>
